@@ -1,4 +1,4 @@
-package com.turkcell.ecommerce_cqrs.infrastucture.product;
+package com.turkcell.ecommerce_cqrs.persistence.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

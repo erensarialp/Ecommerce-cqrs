@@ -1,4 +1,4 @@
-package com.turkcell.ecommerce_cqrs.infrastucture.product;
+package com.turkcell.ecommerce_cqrs.persistence.product;
 
 import com.turkcell.ecommerce_cqrs.domain.product.model.Money;
 import com.turkcell.ecommerce_cqrs.domain.product.model.Product;
@@ -12,8 +12,8 @@ public class ProductEntityMapper {
     {
         JpaProductEntity productEntity = new JpaProductEntity();
         productEntity.setId(product.id().value());
-        productEntity.setName(productEntity.name());
-        productEntity.setDescription(productEntity.description());
+        productEntity.setName(product.name());
+        productEntity.setDescription(product.description());
         productEntity.setAmount(product.money().amount());
         productEntity.setCurrency(product.money().currency());
         productEntity.setStock(product.stock());
