@@ -1,4 +1,4 @@
-package com.turkcell.ecommerce_cqrs.domain;
+package com.turkcell.ecommerce_cqrs.domain.product.model;
 
 import java.math.BigDecimal;
 import java.util.Objects;
