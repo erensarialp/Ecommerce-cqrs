@@ -1,4 +1,4 @@
-package com.turkcell.ecommerce_cqrs;
+package com.turkcell.ecommerce_cqrs.interfaces.console;
 
 import com.turkcell.ecommerce_cqrs.domain.product.model.Money;
 import com.turkcell.ecommerce_cqrs.domain.product.model.Product;
