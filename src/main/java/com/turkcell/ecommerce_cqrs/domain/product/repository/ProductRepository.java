@@ -13,4 +13,5 @@ public interface ProductRepository
     List<Product> findAll();
     List<Product> findAllPaged(Integer pageIndex, Integer pageSize);
     void delete(ProductId productId);
+    boolean existsByNameIgnoreCase(String name);
 }
